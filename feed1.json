@@ -1,0 +1,35 @@
+{
+	"pages": [
+		{
+			"path": "/news",
+			"rank": 8,
+			"topref": {
+				"domain": "gawker.com"
+			}
+		},
+
+		{
+			"path": "/sports",
+			"rank": 4,
+			"topref": {
+				"domain": "t.co"
+			}
+		},
+
+		{
+			"path": "/money",
+			"rank": 2,
+			"topref": {
+				"domain": "google.com"
+			}
+		},
+
+		{
+			"path": "/sports",
+			"rank": 5,
+			"topref": {
+				"domain": "kotaku.com"
+			}
+		}
+	]
+}

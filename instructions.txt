@@ -1,0 +1,31 @@
+
+---------------------------
+
+Create a web app that shows the top eight ranked pages
+for track.com. The page path (`pages.path`) needs to precede
+the page number.
+
+When an item in the list is clicked, the right pane
+should show its top ref. domain (`pages.topref.domain`).
+
+The UI should be formatted like the following wireframe:
+
+-----------------------------------------------------------
+| track.com                                               |
+----------------------------------------------------------- 
+| ## Page 1                    | Page 3 Details           |
+| ## Page 2                    |--------------------------|
+| ## Page 3                  > | Ref. Domain              |
+| ## Page 4                    |                          |
+| ## Page 5                    |                          |
+| ## Page 6                    |                          |
+| ## Page 7                    |                          |
+| ## Page 8                    |                          |
+----------------------------------------------------------- 
+
+Guidelines:
+
+- Do just enough so we can evaluate your understanding of JavaScript, HTML and CSS.
+- Use any library/framework that you feel comfortable with.
+- It should work in modern (HTML5) browsers. Focus on Chrome, Firefox, and Safari. IE compatibility is nice but don't spend too much time on it.
+- Good luck!
