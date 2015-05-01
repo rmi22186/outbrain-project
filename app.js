@@ -2,7 +2,6 @@ angular.module('outbrainapp', [])
 
 .controller('selectLink', function($scope, $http) {
 
-
   var feed1 = {
     "pages": [
       {
@@ -78,9 +77,4 @@ angular.module('outbrainapp', [])
   $scope.links = feed1.pages.concat(feed2.pages);
   $scope.links.clicked = null;
 
-  // var url = 'http://public-api.wordpress.com/rest/v1/sites/wtmpeachtest.wordpress.com/posts?callback=JSON_CALLBACK';
-  // $http.jsonp(url)
-  // .success(function(data) {
-  //   console.log(data);
-  // });
 });
